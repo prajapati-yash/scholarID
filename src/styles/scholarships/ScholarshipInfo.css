@@ -1,0 +1,48 @@
+.accordian-div {
+  background: linear-gradient(to left, #6a79ff, #4250ff);
+  color: white;
+  padding: 1.8rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.accordion-box-border {
+  border-radius: 2.4rem !important;
+}
+
+.accordion-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.accordion-list-item {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.verify-details-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.verifyTitleBox {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  background-color: black;
+  width: 70%;
+  border-radius: 2.5rem;
+  padding: 0.8rem 5rem;
+  border: 2px solid white;
+}
+
+.verify-details-text{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.verify-details-button{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
