@@ -1,0 +1,29 @@
+.admin-verify-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.adminVerifyTitleBox {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  background-color: black;
+  width: 70%;
+  border-radius: 2.5rem;
+  padding: 0.8rem 5rem;
+  border: 2px solid white;
+}
+
+.admin-verify-component {
+  background-color: #efefef;
+  border-radius: 2rem;
+  border: 2px solid #737373;
+}
+
+.admin-verify-list-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 0.4rem;
+}

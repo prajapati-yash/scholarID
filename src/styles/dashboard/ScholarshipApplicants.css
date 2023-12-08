@@ -1,0 +1,9 @@
+.applicants-components{
+    background-color: #efefef;
+    border-radius: 1rem;
+}
+
+.applicant-component-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
