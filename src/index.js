@@ -8,6 +8,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { polygonMumbai } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const { chains, publicClient } = configureChains(
   [polygonMumbai],
@@ -28,11 +29,12 @@ const wagmiConfig = createConfig({
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+    <ChakraProvider>
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains} theme={darkTheme()}>
         <App />
       </RainbowKitProvider>
     </WagmiConfig>
-  </React.StrictMode>
+    </ChakraProvider>
+ 
 );

@@ -4,13 +4,16 @@ import { contractInstance } from "../Contract";
 import { useAccount } from "wagmi";
 import { useNavigate } from "react-router-dom";
 import { ethers } from "ethers";
+import { SyncLoader } from "react-spinners";
 
 function ScholarshipApplicants() {
   const navigate = useNavigate();
   const [amount, setAmount] = useState();
+  const [btnloading, setbtnloading] = useState(false);
 
   const executePayout = async () => {
     try {
+      setbtnloading(true);
       const { ethereum } = window;
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum);
@@ -34,13 +37,13 @@ function ScholarshipApplicants() {
         const tx = await con.disperse(recipientsArray, amountInWei.toString(), {
           value: (amountInWei * recipientsArray.length).toString(),
         });
-        console.log();
-
         console.log(tx);
         await tx.wait();
+        setbtnloading(false);
       }
     } catch (e) {
       console.log("Error in creating user account: ", e);
+      setbtnloading(false);
     }
   };
 
@@ -51,21 +54,31 @@ function ScholarshipApplicants() {
           Scholarship Name
         </div>
         <div className="col-5">
-          <input
-            type="text"
-            className="mx-2"
-            value={amount}
-            onChange={(e) => {
-              setAmount(e.target.value);
-            }}
-          ></input>
+          <div className="py-1">
+            <label>Enter the amount to disperse: </label>
+            <input
+              type="text"
+              className="mx-2"
+              value={amount}
+              onChange={(e) => {
+                setAmount(e.target.value);
+              }}
+            ></input>
+          </div>
+
           <button
             type="button"
-            className="btn btn-primary"
+            className="btn btn-primary my-1"
             style={{ fontSize: "1.2rem", fontWeight: "600" }}
             onClick={executePayout}
           >
-            Execute Payout
+            {btnloading ? (
+              <div>
+                <SyncLoader color="#fff" size={12} speedMultiplier={0.5} />
+              </div>
+            ) : (
+              <>Execute Payout</>
+            )}
           </button>
         </div>
       </div>
