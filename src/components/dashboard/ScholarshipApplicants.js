@@ -15,7 +15,7 @@ function ScholarshipApplicants() {
         </div>
       </div>
 
-      <div className="py-4 row ps-4 applicants-id-component">
+      <div className="py-3 ps-4 applicants-id-component">
         <div className="py-2 applicants-id-title">List of all the applicants for scholarship</div>
 
         <div>

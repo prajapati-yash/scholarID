@@ -6,6 +6,7 @@ import Scholarships from "./pages/Scholarships";
 import ScholarshipInfo from "./components/scholarships/ScholarshipInfo";
 import ScholarshipApplicants from "./components/dashboard/ScholarshipApplicants";
 import Admin from "./pages/Admin";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             path="/admin-dashboard/scholarship-applicants"
             element={<ScholarshipApplicants />}
           ></Route>
+          <Route path="/profile" element={<Profile />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

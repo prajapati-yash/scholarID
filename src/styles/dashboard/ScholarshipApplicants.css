@@ -1,9 +1,20 @@
-.applicants-components{
-    background-color: #efefef;
-    border-radius: 1rem;
+.applicants-components {
+  background-color: #efefef;
+  border-radius: 1rem;
 }
 
-.applicant-component-title{
-    font-size: 1.3rem;
-    font-weight: 600;
+.applicant-component-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.applicants-id-component {
+  background-color: #efefef;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.applicants-id-title {
+  font-size: 1.2rem;
+  font-weight: 600;
 }

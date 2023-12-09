@@ -45,7 +45,7 @@ function Navbar() {
               <li className="nav-item py-2 px-lg-2">
                 <NavLink
                   className="nav-link px-1 p-0 d-flex align-items-center"
-                  to="/"
+                  to="/profile"
                 >
                   <span className="landing-navbar">Profile</span>
                 </NavLink>
