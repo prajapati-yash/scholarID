@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/dashboard/AdminDashboard.css"
+import "../../styles/dashboard/AdminDashboard.css";
 
 function AdminDashboard() {
   const handleClick = (url) => {
@@ -25,8 +25,70 @@ function AdminDashboard() {
             <button
               type="button"
               className="btn btn-pilled btn-primary"
-              onClick={() => handleClick("/admin-dashboard/scholarship-applicants")}
+              onClick={() =>
+                handleClick("/admin-dashboard/scholarship-applicants")
+              }
             >
+              View all applicants
+            </button>
+          </div>
+        </div>
+
+        <div className="d-flex mx-5 py-2">
+          <div className="col-8 px-3 py-2 d-flex align-items-center admin-verify-list-title">
+            Digital Gujarat
+          </div>
+          <div className="col-1"></div>
+          <div className="d-grid col-3">
+            <button type="button" className="btn btn-pilled btn-primary">
+              View all applicants
+            </button>
+          </div>
+        </div>
+
+        <div className="d-flex mx-5 py-2">
+          <div className="col-8 px-3 py-2 d-flex align-items-center admin-verify-list-title">
+            SDEF Scholarship
+          </div>
+          <div className="col-1"></div>
+          <div className="d-grid col-3">
+            <button type="button" className="btn btn-pilled btn-primary">
+              View all applicants
+            </button>
+          </div>
+        </div>
+
+        <div className="d-flex mx-5 py-2">
+          <div className="col-8 px-3 py-2 d-flex align-items-center admin-verify-list-title">
+            Ramanujan Fellowship
+          </div>
+          <div className="col-1"></div>
+          <div className="d-grid col-3">
+            <button type="button" className="btn btn-pilled btn-primary">
+              View all applicants
+            </button>
+          </div>
+        </div>
+
+        <div className="d-flex mx-5 py-2">
+          <div className="col-8 px-3 py-2 d-flex align-items-center admin-verify-list-title">
+            Aditya Birla Scholarship
+          </div>
+          <div className="col-1"></div>
+          <div className="d-grid col-3">
+            <button type="button" className="btn btn-pilled btn-primary">
+              View all applicants
+            </button>
+          </div>
+        </div>
+
+        <div className="d-flex mx-5 py-2">
+          <div className="col-8 px-3 py-2 d-flex align-items-center admin-verify-list-title">
+            Saksham Scholarship
+          </div>
+          <div className="col-1"></div>
+          <div className="d-grid col-3">
+            <button type="button" className="btn btn-pilled btn-primary">
               View all applicants
             </button>
           </div>
