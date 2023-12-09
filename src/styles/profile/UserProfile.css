@@ -1,18 +1,22 @@
 .user-profile-title {
-  color: white;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
 .userProfileTitleBox {
   font-size: 1.8rem;
-  color: #fff;
+  color: #000;
   font-weight: 700;
-  background-color: black;
+  background-color: #efefef;
   width: 70%;
-  border-radius: 2.5rem;
+  border-radius: 1rem;
   padding: 0.8rem 5rem;
-  border: 2px solid white;
+  border: 2px solid #000;
+}
+
+.userProfileTitleBox:hover {
+  color: #efefef;
+  background-color: #000;
 }
 
 .profile-scholarship-component {
