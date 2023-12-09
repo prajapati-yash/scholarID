@@ -14,11 +14,6 @@
   border: 2px solid #000;
 }
 
-.userProfileTitleBox:hover {
-  color: #efefef;
-  background-color: #000;
-}
-
 .profile-scholarship-component {
   background-color: #efefef;
   border-radius: 2rem;
