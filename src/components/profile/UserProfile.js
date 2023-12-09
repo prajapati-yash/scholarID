@@ -24,7 +24,6 @@ function UserProfile() {
               <button
                 type="button"
                 className="btn btn-success"
-                // onClick={() => handleClick("/scholarship-details")}
               >
                 Received ✅
               </button>
@@ -40,7 +39,6 @@ function UserProfile() {
               <button
                 type="button"
                 className="btn btn-warning"
-                // onClick="/scholarship-details"
               >
                 Pending 🕛
               </button>
