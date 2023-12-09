@@ -18,7 +18,7 @@ function ScholarshipList() {
       <div className="py-4 mx-5 scholarship-list-component">
         <div className="d-flex mx-5 py-2">
           <div className="col-8 px-3 py-2 d-flex align-items-center scholarship-list-title">
-            MYSY Scholarship
+          DAAD Scholarship Germany
           </div>
           <div className="col-1"></div>
           <div className="d-grid col-3">
@@ -34,7 +34,7 @@ function ScholarshipList() {
 
         <div className="d-flex mx-5 py-2">
           <div className="col-8 px-3 py-2 d-flex align-items-center scholarship-list-title">
-            Digital Gujarat
+            Digital India Scholarship
           </div>
           <div className="col-1"></div>
           <div className="d-grid col-3">
@@ -58,7 +58,7 @@ function ScholarshipList() {
 
         <div className="d-flex mx-5 py-2">
           <div className="col-8 px-3 py-2 d-flex align-items-center scholarship-list-title">
-            Ramanujan Fellowship
+          K.C. Mahindra Scholarships For Post-Graduate Studies Abroad
           </div>
           <div className="col-1"></div>
           <div className="d-grid col-3">
