@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/navbar/Navbar.css";
 import { NavLink } from "react-router-dom";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 function Navbar() {
   return (
@@ -52,7 +53,7 @@ function Navbar() {
               </li>
 
               <li className="nav-item py-2 px-2">
-                <button className="btn btn-primary">Login</button>
+                <ConnectButton />
               </li>
             </ul>
           </div>
