@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import scholarIdABI from "../contracts/artifacts/ScholarIdABI.json";
 
-export const CONTRACT_ADDRESS = "0x4DD52DFF6231ccb21e4CFa89f149524FDb5b9c36";
+export const CONTRACT_ADDRESS = "0x502aC23516A732741d4756ABA4e4abd2d3E1507D";
 
 export const  contractInstance = async () => {
   const { ethereum } = window;
