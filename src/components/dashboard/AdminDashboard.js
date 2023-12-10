@@ -12,7 +12,7 @@ function AdminDashboard() {
         className="admin-verify-title my-auto"
         style={{ paddingTop: "3rem", paddingBottom: "2.5rem" }}
       >
-        <span className="adminVerifyTitleBox">List of all Scholarships by Scholarship Providers</span>
+        <span className="adminVerifyTitleBox">List of all Scholarships offered by Scholarship Providers</span>
       </div>
 
       <div className="py-3 mx-5 admin-verify-component">

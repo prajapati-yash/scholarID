@@ -9,7 +9,7 @@ function UserProfile() {
         style={{ paddingTop: "3rem", paddingBottom: "2.5rem" }}
       >
         <span className="userProfileTitleBox">
-          List of all Scholarships that you have applied
+          List of all Scholarships user has applied
         </span>
       </div>
 
