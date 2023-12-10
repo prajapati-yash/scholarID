@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/navbar/Navbar.css";
 import { NavLink } from "react-router-dom";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import logo from "../../assests/logo.png";
 
 function Navbar() {
   return (
@@ -12,7 +13,8 @@ function Navbar() {
       >
         <div className="container-fluid px-4 px-md-5 navbar ">
           <a className="d-flex navbar-brand" href="/">
-            <h1>ScholarID</h1>
+            {/* <h1>ScholarID</h1> */}
+            <img src={logo} width={200}/>
           </a>
 
           <button
