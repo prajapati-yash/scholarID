@@ -14,7 +14,7 @@ function UserProfile() {
       </div>
 
       <div>
-        <div className="py-4 mx-5 profile-scholarship-component">
+        <div className="py-4 col-10 mx-auto profile-scholarship-component">
           <div className="d-flex mx-5 py-2">
             <div className="col-8 px-3 py-2 d-flex align-items-center profile-scholarship-title">
             Digital India Scholarship

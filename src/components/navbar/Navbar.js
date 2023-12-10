@@ -48,7 +48,15 @@ function Navbar() {
                   className="nav-link px-1 p-0 d-flex align-items-center"
                   to="/profile"
                 >
-                  <span className="landing-navbar">Profile</span>
+                  <span className="landing-navbar">User's Profile</span>
+                </NavLink>
+              </li>
+              <li className="nav-item py-2 px-lg-2">
+                <NavLink
+                  className="nav-link px-1 p-0 d-flex align-items-center"
+                  to="/admin-dashboard"
+                >
+                  <span className="landing-navbar">Admin's Profile</span>
                 </NavLink>
               </li>
 
